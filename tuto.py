@@ -38,4 +38,6 @@ first.add_radiobutton(label = "Click Me !", command= (textfunny))
 #MainMenu
 mainmenu.add_cascade(label = "Funny", menu = first)
 
-
+#Loop
+tuto.config(menu = mainmenu)
+tuto.mainloop()
