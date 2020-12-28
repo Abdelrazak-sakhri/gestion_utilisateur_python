@@ -31,3 +31,11 @@ button1.pack()
 button2 = Button(text = "Exit", command = (exit))
 button2.pack()
 
+#Menu
+first = tkinter.Menu(mainmenu)
+first.add_radiobutton(label = "Click Me !", command= (textfunny))
+
+#MainMenu
+mainmenu.add_cascade(label = "Funny", menu = first)
+
+
