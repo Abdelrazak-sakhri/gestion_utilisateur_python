@@ -24,3 +24,10 @@ def textfunny():
     l1 = Label(text = "Tuto initiation Tkinter")
     l1.pack()
 
+#Boutons
+button1 = Button(text = "YouTube", command = (open))
+button1.pack()
+
+button2 = Button(text = "Exit", command = (exit))
+button2.pack()
+
